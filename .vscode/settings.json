@@ -1,6 +1,6 @@
 {
   "code-runner.executorMap": {
-    "csharp": "dotnet run --project \"$dir\""
+    "csharp": "dotnet run --project $dirWithoutTrailingSlash"
   },
   "code-runner.ignoreSelection": true,
   "code-runner.saveFileBeforeRun": true,
